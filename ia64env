@@ -1,0 +1,5 @@
+#!/bin/bash
+export PATH=$PATH:"~/bin/ia64-linux/bin/"
+export ARCH="ia64"
+export CROSS_COMPILE=/home/jstultz/bin/ia64-linux/bin/ia64-linux-
+bash
