@@ -51,6 +51,7 @@ set +e
 adb reboot bootloader
 set -e
 fastboot flash boot out/target/product/db845c/boot.img 
+fastboot flash vendor_boot out/target/product/db845c/vendor_boot.img
 fastboot flash super out/target/product/db845c/super.img
 fastboot reboot
 
